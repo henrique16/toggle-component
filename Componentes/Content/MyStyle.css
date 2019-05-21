@@ -1,0 +1,77 @@
+﻿.global {
+    width: 98%;
+    float: left;
+    padding: 0px 1%;
+    overflow: auto;
+    padding-bottom: 10px;
+}
+
+.component {
+    float: left;
+    width: 100%;
+    min-width: 73em;
+    margin-top: 10px;
+}
+
+.titulo {
+    width: 98%;
+    float: left;
+    font-weight: 700;
+    font-size: 24px;
+    padding: 5px 1%;
+    background-color: #fff;
+    border: solid 0.5px #ccc;
+    border-bottom: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    box-shadow: -2px 4px 4px 0px #ccc;
+}
+
+.content {
+    width: 98%;
+    float: left;
+    border: solid 0.5px #ccc;
+    padding: 10px 1%;
+    border: solid 0.5px #ccc;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: -2px 4px 4px 0px #ccc;
+    background-color: #fff;
+}
+
+.row {
+    display: flex;
+}
+
+.col {
+    align-items: center;
+    display: flex;
+}
+
+
+.btnToggle {
+    float: right;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.btn {
+    width: 3em;
+    cursor: pointer;
+    float: right;
+    background-color: aliceblue;
+    text-align: center;
+    border: solid 0.5px lightblue;
+    margin-top: 5px;
+}
+
+
+.eventClose {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.eventOpen {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
